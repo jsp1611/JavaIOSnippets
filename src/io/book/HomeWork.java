@@ -25,17 +25,17 @@ public class HomeWork {
     // Does not handle integer overflow
 
     // Enter integer and print squares of that integer from 1 to that integer
-    public static void main(String[] args) {
-        Console console = System.console();
-        String input = console.readLine("Please enter an integer: ");
-        BigInteger integer = new BigInteger(input);
-        if (integer.min(BigInteger.ONE)) {
-
-        } else {
-
-        }
-        for (int i = 1; i < max; i++) {
-            console.printf("%d\n", i*i);
-        }
-    }
+//    public static void main(String[] args) {
+//        Console console = System.console();
+//        String input = console.readLine("Please enter an integer: ");
+//        BigInteger integer = new BigInteger(input);
+//        if (integer.min(BigInteger.ONE)) {
+//
+//        } else {
+//
+//        }
+//        for (int i = 1; i < max; i++) {
+//            console.printf("%d\n", i*i);
+//        }
+//    }
 }
