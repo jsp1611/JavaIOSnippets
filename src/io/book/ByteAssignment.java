@@ -15,5 +15,10 @@ public class ByteAssignment {
         System.out.println(first);
         System.out.println(second);
         System.out.println(third);
+
+        // Now this is fricking annoying
+        // They get upcast to integers on addition, so you have to cast them back to byte
+        first = (byte)(second + third);
+        System.out.println(first);
     }
 }
